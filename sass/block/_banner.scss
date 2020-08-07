@@ -1,0 +1,16 @@
+.banner {
+    .container {
+        margin-top: 62px;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    &__img {
+        width: 100%;
+    }
+    &__arrow {
+        width: 8.2%;
+        position: absolute;
+        top: 46.852%;
+        right: 3.259%;
+    }
+}

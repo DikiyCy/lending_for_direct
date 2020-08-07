@@ -1,0 +1,233 @@
+.promo {
+    .container {
+        max-width: 1020px;
+        margin-bottom: 10px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .item {
+        margin: 0 34px 66px 34px;
+        max-width: 440px;
+        min-height: 610px;
+        padding: 25px 20px 7px;
+        position: relative;
+        display: flex;
+        flex: 0 0 50%;
+        flex-direction: column;
+        justify-content: start;
+        background-color: rgba(223, 228, 236, 0.4);
+        box-shadow: 0px 0px 15px 0px rgba(16,16,17,0.4);
+        &__promo {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-end;
+            margin-bottom: 31px;
+        }
+        &__dicsount {
+            position: absolute;
+            top: -39px;
+            right: -30px;
+            .dicsount__text {
+                position: absolute;
+                top: 8px;
+                right: 15px;
+                font-family: ArialMT;
+                font-size: 26.1px;
+                line-height: 55px;
+                font-weight: 400;
+                color: #ffffff;
+            }
+            z-index: 5;
+        }
+        &__good {
+            position: absolute;
+            top: -3px;
+            left: -32px;
+        }
+        &__price {
+            padding-left: 25px;
+            width: 100%;
+            max-width: 221px;
+            opacity: 0.85;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            margin-bottom: 9px;
+        }
+        &__oldPrice {
+            font-family: 'ArialMT';
+            font-size: 29.8px;
+            line-height: 29.8px;
+            font-weight: 400;
+            color: #575757;
+            text-decoration: line-through;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        &__newPrice {
+            font-family: 'ArialMT';
+            font-size: 37.3px;
+            line-height: 37.3px;
+            font-weight: 400;
+            color: #d8481c;
+            margin-bottom: 5px;
+        }
+        &__order {
+            width: 100%;
+            max-width: 221px;
+            height: 43px;
+            background-color: #3ab16f;
+            border: none;
+            margin-bottom: 10px;
+            font-family: 'Akrobat';
+            font-size: 24.2px;
+            line-height: 24.2px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #ffffff;
+            &:hover, &:focus {
+                outline: none;
+            }
+        }
+        &__detail {
+            width: 100%;
+            max-width: 221px;
+            height: 43px;
+            background-color: #ffffff;
+            border: 2px solid #e96c41;
+            font-family: 'Akrobat';
+            font-size: 22.4px;
+            line-height: 22.4px;
+            font-weight: 400;
+            letter-spacing: 0.05em;
+            color: #b83b11;
+            &:hover, &:focus {
+                outline: none;
+            }
+        }
+        &__more {
+            font-family: 'Corbel';
+            font-size: 16.7px;
+            font-weight: 400;
+            color: #ab310c;
+            border-bottom: 2px dashed #ab310c;
+            cursor: pointer;
+            &:hover, &:focus {
+                outline: none;
+            }
+        }
+        &__about {
+            padding-bottom: 16px;
+        }
+        .about {
+            &__title {
+                font-family: 'Akrobat';
+                font-size: 26.1px;
+                line-height: 26.1px;
+                font-weight: 400;
+                text-decoration: underline;
+                color: #000000;
+                margin-bottom: 9px;
+            }
+            &__subtitle {
+                font-family: 'Akrobat';
+                font-size: 26.1px;
+                line-height: 26.1px;
+                font-weight: 400;
+                text-transform: uppercase;
+                color: #000000;
+                margin-bottom: 16px;
+            }
+            &__descr {
+                font-family: 'Akrobat';
+                font-size: 20.5px;
+                line-height: 26.1px;
+                font-weight: 400;
+                color: #004734;
+            }
+        }
+        &__modal {
+            max-width: 440px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            padding: 40px 34px 40px 22px;
+            background: rgba(255, 255, 255, 0.94);
+            z-index: 3;
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: -10px;
+                right: 18%;
+                width: 0;
+                height: 0;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-bottom: 10px solid rgba(255, 255, 255, 0.94);
+            }
+        }
+        .modal {
+            &__close {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                cursor: pointer;
+            }
+            &__info {
+                font-family: 'Akrobat';
+                font-size: 20.9px;
+                line-height: 1.11;
+                font-weight: 400;
+                color: #004734;
+            }
+        }
+        .item__footer {
+            margin: 0 -20px;
+            min-width: 100%;
+            background-color: white;
+            padding: 12px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 82px;
+
+        }
+        .footer {
+            &__text {
+                font-family: 'Akrobat';
+                font-size: 17.5px;
+                line-height: 17.5px;
+                font-weight: 400;
+                letter-spacing: 0.02em;
+                color: #828384;
+                text-align: center;
+                vertical-align: middle;
+                padding: 0 15px;
+                margin-bottom: 14px;
+            }
+            &__icon {
+                padding: 0 10px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                a {
+                    display: block;
+                    margin: 0 6px;
+                }
+            }
+        }
+    }
+}

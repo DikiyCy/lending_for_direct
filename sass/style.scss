@@ -1,0 +1,26 @@
+
+body {
+    max-width: 1350px;
+    margin: 0 auto;
+    background: url('../img/bg/background.png') center (center/cover) no-repeat;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+a, a:hover, a:focus {
+    text-decoration: none;
+}
+.hidden {
+    display: none;
+}
+
+@import 'block/svg';
+@import 'block/header';
+@import 'block/banner';
+@import 'block/stock';
+@import 'block/promo';
+@import 'block/footer';
+@import 'block/request';
+
+@import 'base/media';

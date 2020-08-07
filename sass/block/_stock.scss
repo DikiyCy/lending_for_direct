@@ -1,0 +1,41 @@
+.stock {
+    .container {
+        padding: 0 34px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 66px;
+    }
+    &__title {
+        margin: 0 15px;
+        position: relative;
+        background: url('../img/stock.png') center center/contain  no-repeat;
+        max-width: 1020px;
+        width: 100%;
+        padding: 35px 0 35px;
+        font-family: 'Akrobat';
+        font-size: 48px;
+        line-height: 48px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: #004734;
+        text-align: center;
+        vertical-align: middle;
+        span {
+            font-size: 62.5px;
+            color: #de4814;
+        }
+    }
+    &__left {
+        position: absolute;
+        top: 50%;
+        left: 6%;
+    }
+    &__right {
+        position: absolute;
+        top: 50%;
+        right: 6%;
+    }
+}

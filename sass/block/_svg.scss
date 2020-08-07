@@ -1,0 +1,99 @@
+.svg {
+    &__vk {
+        &_header {
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            fill: #749c8d;
+        }
+        &_item {
+            width: 27px;
+            height: 27px;
+            fill: #aeaeae;
+        }
+    }
+    &__inst {
+        &_header {
+            width: 40px;
+            height: 40px;
+            fill: #749c8d;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        &_item {
+            width: 27px;
+            height: 27px;
+            fill: #aeaeae;
+        }
+    }
+    &__fb {
+        &_header {
+            width: 40px;
+            height: 40px;
+            fill: #749c8d;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        &_item {
+            width: 27px;
+            height: 27px;
+            fill: #aeaeae;
+        }
+    }
+    &__ok {
+        &_item {
+            width: 27px;
+            height: 27px;
+            fill: #aeaeae;
+        }
+    }
+    &__youtube {
+        &_item {
+            width: 27px;
+            height: 27px;
+            fill: #aeaeae;
+        }
+    }
+    &__linked {
+        &_item {
+            width: 27px;
+            height: 27px;
+            fill: #aeaeae;
+        }
+    }
+    &__livejournal {
+        &_item {
+            width: 27px;
+            height: 27px;
+            fill: #aeaeae;
+        }
+    }
+    &__moimir {
+        &_item {
+            width: 27px;
+            height: 27px;
+            fill: #aeaeae;
+        }
+    }
+    &__yandex {
+        &_item {
+            width: 27px;
+            height: 27px;
+            fill: #aeaeae;
+        }
+    }
+    &__google {
+        &_item {
+            width: 27px;
+            height: 27px;
+            fill: #aeaeae;
+        }
+    }
+}

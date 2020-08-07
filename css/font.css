@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'ArialMT';
+    src: url('../font/subset-ArialMT.woff2') format('woff2'),
+        url('../font/subset-ArialMT.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('../font/subset-Akrobat-Regular.woff2') format('woff2'),
+        url('../font/subset-Akrobat-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arctikascript';
+    src: url('../font/subset-Arctikascript.woff2') format('woff2'),
+        url('../font/subset-Arctikascript.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Corbel';
+    src: url('../font/subset-Corbel.woff2') format('woff2'),
+        url('../font/subset-Corbel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tahoma';
+    src: url('../font/subset-Tahoma.woff2') format('woff2'),
+        url('../font/subset-Tahoma.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
